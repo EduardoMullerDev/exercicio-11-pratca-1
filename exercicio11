@@ -1,0 +1,39 @@
+import java.util.Scanner;
+
+class exercicio11 {
+
+    public static void main(String[] args) {
+
+        Scanner teclado = new Scanner(System.in);
+
+        int ni1;
+        int ni2;
+        double nr1;
+        double A;
+        double B;
+        double C;
+
+        System.out.print("primeiro numero inteiro:");
+        ni1 = teclado.nextInt();
+
+        System.out.print("segundo numero inteiro:");
+        ni2 = teclado.nextInt();
+
+        System.out.print("numero real:");
+        nr1 = teclado.nextDouble();
+
+        A = ni1 * 2 + (ni2 / 2);
+
+        B = nr1 + (ni1 * 3);
+
+        C = (nr1 * nr1 * nr1);
+
+        System.out.println("Resultado A:" + A);
+
+        System.out.println("Resultado B:" + B);
+
+        System.out.println("Resultado C:" + C);
+
+    }
+
+}
